@@ -32,11 +32,11 @@ n.save
 redirect '/'
 end
 
-get '/:id' do
-@note = Note.get params[:id]
-@title = "Edit note ##{params[:id]}"
-erb :edit
-end
+#get '/:id' do
+#@note = Note.get params[:id]
+#@title = "Edit note ##{params[:id]}"
+#erb :edit
+#end
 
 put '/:id' do
 n = Note.get params[:id]
