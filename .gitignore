@@ -9,4 +9,3 @@ doc/api
 doc/app
 *.swp
 *~
-Gemfile.lock
